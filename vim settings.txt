@@ -1,0 +1,235 @@
+{
+  "editor.foldingStrategy": "indentation",
+  "editor.folding": true,
+  "editor.showFoldingControls": "always",
+  "editor.foldingHighlight": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "italic font",
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "keyword.control",
+          "keyword.control.from",
+          "keyword.control.flow",
+          "keyword.operator.new",
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.default",
+          "keyword.control.trycatch",
+          "keyword.control.conditional",
+          "storage.type",
+          "storage.type.class",
+          "storage.modifier.tsx",
+          "storage.type.function",
+          "storage.modifier.async",
+          "variable.language",
+          "variable.language.this",
+          "variable.language.super",
+          "meta.class",
+          "meta.var.expr",
+          "constant.language.null",
+          "support.type.primitive",
+          "entity.name.method.js",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    // "tab.activeBackground": "#000000",
+    // "tab.hoverBackground": "#000000",
+    // "tab.hoverForeground": "#ffffff",
+    // "tab.activeForeground": "#ffffff",
+    // "activityBar.background": "#282c34",
+    // "sideBar.background": "#282c34",
+    // "tab.activeBorder": "#d19a66",
+    // "editorCursor.foreground": "#ffc400",
+    // "editorCursor.background": "#131313",
+    "terminalCursor.foreground": "#069A8E"
+  },
+  "editor.fontSize": 17,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineHeight": 20,
+  "editor.fontFamily": "JetBrains Mono",
+
+  "editor.fontLigatures": false,
+  "editor.wordWrap": "on",
+  "editor.suggest.showWords": false,
+  "editor.wordBasedSuggestions": "off",
+  "workbench.list.smoothScrolling": true,
+  "explorer.autoReveal": false,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.fontSize": 16,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.cursorWidth": 2,
+  "editor.cursorSurroundingLines": 3,
+  "editor.renderWhitespace": "none",
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.stickyTabStops": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.stablePeek": true,
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "workbench.editor.wrapTabs": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.semanticTokenColorCustomizations": {},
+  "git.autoRepositoryDetection": false,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["J", "K"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-h>"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "after": ["g", "t"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "after": ["g", "T"]
+    },
+    {
+      "before": ["B"],
+      "after": ["^"]
+    },
+    {
+      "before": ["W"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-z>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-f>": false,
+    "<C-d>": false,
+    "<C-p>": false,
+    "<C-w>": false,
+    "<C-j>": false,
+    "<C-x>": false,
+    "<C-b>": false,
+    "<C-S-e>": false
+  },
+  "autopep8.args": ["--indent-size=2"],
+  "editor.linkedEditing": true,
+  "workbench.editor.tabSizingFixedMinWidth": 40,
+  "vim.startInInsertMode": true,
+  "workbench.editor.revealIfOpen": true,
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.editor.tabSizing": "fixed",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.smoothScrolling": true,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.scrollBeyondLastColumn": 0,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "prettier.printWidth": 120,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.showExecutionMessage": false,
+  "chat.editor.wordWrap": "on",
+  "terminal.integrated.tabStopWidth": 4,
+  "redhat.telemetry.enabled": false,
+  "editor.minimap.maxColumn": 80,
+  "update.showReleaseNotes": false,
+  "workbench.editor.enablePreview": false,
+  "notebook.formatOnSave.enabled": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "dart.openDevTools": "flutter",
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "debug.console.fontSize": 15,
+  "scm.inputFontSize": 14,
+  "chat.editor.fontSize": 16,
+  "markdown.preview.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.hover.delay": 500,
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark+",
+  "editor.codeLens": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.fontFamily": "Consolas",
+  "editor.quickSuggestionsDelay": 50,
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.filterGraceful": false,
+  "editor.suggest.preview": true,
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 0,
+  "editor.codeLensFontFamily": "JetBrains Mono",
+  "editor.codeLensFontSize": 16,
+  "editor.experimentalInlineEdit.fontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontSize": 16,
+  "debug.console.fontFamily": "JetBrains Mono",
+  "debug.console.acceptSuggestionOnEnter": "on"
+}
